@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Container } from './nav.css';
+import * as S from './styles';
 
 const Nav = () => (
-  <Container>
+  <S.Container>
     <ul>
       <li>
         <Link to="/about">About</Link>
@@ -12,7 +12,7 @@ const Nav = () => (
         <a href="https://github.com/fabe/gatsby-universal">GitHub</a>
       </li>
     </ul>
-  </Container>
+  </S.Container>
 );
 
 export default Nav;

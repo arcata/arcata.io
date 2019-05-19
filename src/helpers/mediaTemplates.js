@@ -15,19 +15,19 @@ import BREAKPOINTS from 'constants/breakpoints';
 // Edit or add breakpoints inside constants/breakpoints.js
 
 const MEDIA = Object.keys(BREAKPOINTS).reduce((acc, label) => {
-  acc[label] = (...args) => css`
-    @media (max-width: ${BREAKPOINTS[label] / 16}em) {
-      ${css(...args)};
-    }
-  `;
+    acc[label] = (...args) => css`
+        @media (max-width: ${BREAKPOINTS[label] / 16}em) {
+            ${css(...args)};
+        }
+    `;
 
-  acc[`MIN_${label}`] = (...args) => css`
-    @media (min-width: ${BREAKPOINTS[label] / 16}em) {
-      ${css(...args)};
-    }
-  `;
+    acc[`MIN_${label}`] = (...args) => css`
+        @media (min-width: ${BREAKPOINTS[label] / 16}em) {
+            ${css(...args)};
+        }
+    `;
 
-  return acc;
+    return acc;
 }, {});
 
 export default MEDIA;

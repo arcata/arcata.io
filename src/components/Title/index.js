@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text } from './title.css';
+import * as S from './styles';
 
 const Title = ({ children, as = 'span', size }) => {
   return (
-    <Text as={as} size={size}>
+    <S.h1 as={as} size={size}>
       {children}
-    </Text>
+    </S.h1> 
   );
 };
 
