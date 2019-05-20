@@ -5,19 +5,19 @@ import AppProvider from 'store/provider';
 import wrapPageElementWithTransition from 'helpers/wrapPageElement';
 
 export const replaceRenderer = ({
-  bodyComponent,
-  replaceBodyHTMLString,
-  setHeadComponents,
+    bodyComponent,
+    replaceBodyHTMLString,
+    setHeadComponents,
 }) => {
-  // React Context in SSR/build
-  const ConnectedBody = () => <AppProvider>{bodyComponent}</AppProvider>;
-  replaceBodyHTMLString(renderToString(<ConnectedBody />));
+    // React Context in SSR/build
+    const ConnectedBody = () => <AppProvider>{bodyComponent}</AppProvider>;
+    replaceBodyHTMLString(renderToString(<ConnectedBody />));
 
-  // Add styled-components in SSR/build
-  const sheet = new ServerStyleSheet();
-  const bodyHTML = renderToString(sheet.collectStyles(<ConnectedBody />));
-  const styleElement = sheet.getStyleElement();
-  setHeadComponents(styleElement);
+    // Add styled-components in SSR/build
+    const sheet = new ServerStyleSheet();
+    const bodyHTML = renderToString(sheet.collectStyles(<ConnectedBody />));
+    const styleElement = sheet.getStyleElement();
+    setHeadComponents(styleElement);
 };
 
 // Page Transitions

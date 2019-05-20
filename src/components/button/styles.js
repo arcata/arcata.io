@@ -9,8 +9,8 @@ export default styled.button`
     text-transform: capitalize;
     padding-top: 8px;
     padding-bottom: 8px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 91, 96);
+    color: #fff;
+    background-color: #ff5b60
     padding-left: 15px;
     padding-right: 15px;
     height: 40px;
@@ -20,7 +20,7 @@ export default styled.button`
     transition: all 0.3s ease 0s;
     border-color: rgb(255, 91, 96);
     border-radius: 4px;
-    background-image: -webkit-linear-gradient(29deg, rgb(255, 148, 147) 0%, rgb(255, 120, 162) 100%);
+    background-image: -webkit-linear-gradient(29deg, #ff9493 0%, #ff78a2 100%);
     border-radius: 6px;
     margin: 10px;
 `;

@@ -27,7 +27,11 @@ export default function Button({
 }
 
 Button.propTypes = {
-    children: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]).isRequired,
+    children: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+        PropTypes.array,
+    ]).isRequired,
     onClick: PropTypes.func,
     type: PropTypes.string,
     disabled: PropTypes.bool,
@@ -38,4 +42,3 @@ Button.defaultProps = {
     disabled: false,
     onClick: () => {},
 };
-

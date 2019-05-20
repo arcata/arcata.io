@@ -7,8 +7,8 @@ export const Container = styled.div`
     min-height: 70rem;
     position: relative;
     z-index: 1;
-    background-color: rgb(15, 1, 94);
-    background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));
+    background-color: #0f015e;
+    background-image: radial-gradient(at 50% 100%, #7b16ff, #0f015e);
     overflow: hidden;
 
     .particles {
@@ -25,16 +25,18 @@ export const Welcome = styled.div`
     flex-direction: column;
     margin-left: 20rem;
     max-width: 70rem;
+    z-index: 1;
 `;
 
 export const WelcomeIllustration = styled.div`
-    background-image: url(${props => props.image});
+    background-image: url(./under_constructions.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 1100px;
     height: 800px;
     position: absolute;
-    bottom: -15;
-    right: 0;
-    top: -15;
+    top: -10px;
+    bottom: 0px;
+    left: calc(45vw + 100px);
+    // max-height: calc(100% - 32px);
 `;
