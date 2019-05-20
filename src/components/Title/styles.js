@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 import { font, color } from 'constants/theme';
 
-export const h1 = styled.h1`
+export const MainTitle = styled.h1`
     font: ${font('pageHeading')};
-    margin-bottom: 70px;
-    color: ${color('font')};
+    color: ${color('white')};
+    margin: 15px;
+`;
 
-    &::after {
-        content: ${({ subtitle }) => subtitle && `'${subtitle}'`};
-        display: block;
-        color: ${color('grey')};
-        font: ${font('text')};
-        margin-top: 1rem;
-    }
+export const SubTitle = styled.h2`
+    font: ${font('listingTitle')};
+    color: ${color('white')};
+    margin: 10px;
 `;

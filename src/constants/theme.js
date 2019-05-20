@@ -1,6 +1,6 @@
 import get from 'lodash/get';
 
-export default {
+export const theme = {
     colors: {
         primary: '#4059A7',
         dark: '#403C39',
@@ -11,12 +11,12 @@ export default {
         red: '#C03D3D',
     },
     fonts: {
-        pageHeading: '500 64px Roboto, sans-serif',
+        pageHeading: '900 48px Helvetica, Segoe, sans-serif;',
+        listingTitle: '500 20px Helvetica, Segoe, sans-serif;',
         code: 'normal 1rem Source Code Pro, sans-serif',
         text: '400 1rem Source Sans Pro, sans-serif',
         controlText: '400 0.8125rem Source Sans Pro, sans-serif',
         profileMenu: '400 1.125rem Roboto, sans-serif',
-        listingTitle: '400 1.5rem Roboto, sans-serif',
     },
     form: {
         helperTextHeight: '16px',
@@ -35,7 +35,7 @@ export default {
 };
 
 export function themeVar(path) {
-    return ({ theme }) => get(theme, path);
+    return () => get(theme, path);
 }
 
 export function font(fontKey) {
