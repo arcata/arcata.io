@@ -1,6 +1,7 @@
 {
     "version": 2,
     "name": "arcata.io",
+    "alias": "arcata.io",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
     ]

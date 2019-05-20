@@ -37,7 +37,7 @@ const Intro = () => (
             </div>
         </S.Welcome>
 
-        <S.WelcomeIllustration image="src/images/under_construction.svg" />
+        <S.WelcomeIllustration />
     </S.Container>
 );
 

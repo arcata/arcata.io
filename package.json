@@ -11,7 +11,8 @@
     "build:favicons": "node scripts/favicons",
     "build": "npm run build:dir && npm run build:favicons && gatsby build",
     "test": "ava **/*.test.js --verbose",
-    "now-build": "npm run build"
+    "now-build": "npm run build",
+    "commit": "npx git-cz"
   },
   "greenkeeper": {
     "ignore": [
