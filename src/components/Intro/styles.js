@@ -25,7 +25,7 @@ export const Welcome = styled.div`
     flex-direction: column;
     margin-left: 20rem;
     max-width: 70rem;
-    z-index: 1;
+    z-index: ;
 `;
 
 export const WelcomeIllustration = styled.div`
@@ -38,5 +38,4 @@ export const WelcomeIllustration = styled.div`
     top: -10px;
     bottom: 0px;
     left: calc(45vw + 100px);
-    // max-height: calc(100% - 32px);
 `;

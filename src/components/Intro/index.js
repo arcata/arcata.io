@@ -33,7 +33,7 @@ const Intro = () => (
                 engineering partner for world-class brands.
             </Title.SubTitle>
             <div>
-                <Button>Get In Touch</Button>
+                <Button>GET IN TOUCH</Button>
             </div>
         </S.Welcome>
 
