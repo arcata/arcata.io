@@ -10,6 +10,8 @@ export const Container = styled.header`
     right: 0;
     left: 0;
     z-index: 2;
+    margin-right: 15px;
+    margin-left: 15px;
 
     a {
         font-size: 1.5rem;
