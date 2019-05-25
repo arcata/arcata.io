@@ -1,3 +1,3 @@
-import { MainTitle, SubTitle } from './styles';
+import { MainTitle, SubTitle, Title } from './styles';
 
-export default { MainTitle, SubTitle };
+export { MainTitle, SubTitle, Title };

@@ -3,12 +3,15 @@ import { font, color } from 'constants/theme';
 
 export const MainTitle = styled.h1`
     font: ${font('pageHeading')};
-    color: ${color('white')};
-    margin: 15px;
+    color: ${props => (props.color ? color(props.color) : color('white'))};
 `;
 
 export const SubTitle = styled.h2`
-    font: ${font('listingTitle')};
-    color: ${color('white')};
-    margin: 10px;
+    font: ${font('subtitle')};
+    color: ${props => (props.color ? color(props.color) : color('white'))};
+`;
+
+export const Title = styled.h2`
+    font: ${font('title')};
+    color: ${props => (props.color ? color(props.color) : color('white'))};
 `;
