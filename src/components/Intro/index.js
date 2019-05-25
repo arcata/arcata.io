@@ -21,7 +21,7 @@ const Intro = () => (
         <Particles className="particles" params={particlesOptions} />
         <S.Welcome>
             <Title.MainTitle size="large">
-                Launching digital businesses
+                We help innovators build awesome digital products
             </Title.MainTitle>
             <Title.SubTitle>
                 We are a boutique digital transformation consultancy and
@@ -38,6 +38,10 @@ const Intro = () => (
         </S.Welcome>
 
         <S.WelcomeIllustration />
+
+        <div className="wave">
+            <img src="./wave.svg" alt="wave" />
+        </div>
     </S.Container>
 );
 

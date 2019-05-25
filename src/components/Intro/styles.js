@@ -18,6 +18,14 @@ export const Container = styled.div`
         left: 0;
         z-index: -1;
     }
+
+    .wave {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        bottom: 0px;
+        margin: -2px -1px;
+    }
 `;
 
 export const Welcome = styled.div`
