@@ -14,4 +14,5 @@ export const SubTitle = styled.h2`
 export const Title = styled.h2`
     font: ${font('title')};
     color: ${props => (props.color ? color(props.color) : color('white'))};
+    margin-bottom: 10px;
 `;

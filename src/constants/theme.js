@@ -7,15 +7,13 @@ export const theme = {
         font: '#403C39',
         grey: '#525f7f',
         white: '#fff',
+        darkBlue: '#1f253c',
     },
     fonts: {
         pageHeading: '700 44px asap,sans-serif;',
         subtitle: '500 20px asap,sans-serif;',
         title: '600 22px asap,sans-serif;',
-        code: 'normal 1rem Source Code Pro, sans-serif',
-        text: '400 1rem Source Sans Pro, sans-serif',
-        controlText: '400 0.8125rem Source Sans Pro, sans-serif',
-        profileMenu: '400 1.125rem Roboto, sans-serif',
+        text: '500 16px asap,sans-serif;',
     },
     form: {
         helperTextHeight: '16px',
