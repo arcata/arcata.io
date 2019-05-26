@@ -2,21 +2,36 @@ import styled from 'styled-components';
 import { color, font } from 'constants/theme';
 
 export const Footer = styled.footer`
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 40px;
     background: ${color('darkBlue')};
-    height: 500px;
+`;
+
+export const Container = styled.div`
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 `;
 
+export const Slogan = styled.div`
+    margin-bottom: 140px;
+`;
+
 export const FooterColumnWrapper = styled.div`
-    margin: 50px;
-    
     ul {
         margin-top: 30px;
 
         li {
-            color: ${color('white')};
-            font: ${font('text')}
             margin-top: 10px;
+
+            a {
+                color: ${color('white')};
+                font: ${font('text')};
+                text-decoration: none;
+            }
         }
     }
 `;

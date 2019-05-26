@@ -12,7 +12,9 @@ export const Container = styled.div`
     overflow: hidden;
 
     .particles {
-        position: fixed;
+        position: absolute;
+        width: 100%;
+        height: 100%;
         top: 0;
         right: 0;
         left: 0;
@@ -33,7 +35,7 @@ export const Welcome = styled.div`
     flex-direction: column;
     margin-left: 20rem;
     max-width: 70rem;
-    z-index: ;
+    z-index: 1;
 `;
 
 export const WelcomeIllustration = styled.div`
