@@ -1,17 +1,9 @@
 import styled from 'styled-components';
+import { color } from 'constants/theme';
 
 export const Container = styled.header`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
-    margin-right: 15px;
-    margin-left: 15px;
+    background-color: ${color('primary')};
 
     a {
         font-size: 1.5rem;

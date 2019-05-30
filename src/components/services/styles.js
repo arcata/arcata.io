@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { color } from 'constants/theme';
 
+export const Container = styled.div`
+    background-color: ${color('skin')};
+`;
+
 export const Service = styled.div`
     max-width: 350px;
     margin-bottom: 30px;

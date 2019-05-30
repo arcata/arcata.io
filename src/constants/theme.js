@@ -2,15 +2,15 @@ import get from 'lodash/get';
 
 export const theme = {
     colors: {
-        primary: '#4059A7',
-        dark: '#32325d',
-        font: '#403C39',
+        primary: '#313A87',
+        darkBlue: '#1C213F',
         grey: '#525f7f',
+        skin: '#F8E9E9',
         white: '#fff',
-        darkBlue: '#1f253c',
+        red: '#F5534F',
     },
     fonts: {
-        pageHeading: '700 44px asap,sans-serif;',
+        pageHeading: '700 58px asap,sans-serif;',
         subtitle: '500 20px asap,sans-serif;',
         title: '600 22px asap,sans-serif;',
         text: '500 16px asap,sans-serif;',

@@ -5,15 +5,16 @@ import Head from 'components/head';
 import Header from 'components/header';
 import Footer from 'components/footer';
 import GlobalStyle from 'global.css.js';
+import { Container } from './styles';
 
 const Layout = ({ data, children }) => (
-    <div>
+    <Container>
         <GlobalStyle />
         <Head />
         <Header title={data.site.siteMetadata.siteTitle} />
         {children}
         <Footer />
-    </div>
+    </Container>
 );
 
 Layout.propTypes = {

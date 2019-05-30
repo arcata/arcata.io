@@ -1,25 +1,12 @@
 import styled from 'styled-components';
+import { color } from 'constants/theme';
 
 export const Container = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 70rem;
+    min-height: 1000px;
     position: relative;
-    z-index: 1;
-    background-color: #0f015e;
-    background-image: radial-gradient(at 50% 100%, #7b16ff, #0f015e);
+    background-color: ${color('primary')};
     overflow: hidden;
-
-    .particles {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: -1;
-    }
+    padding-top: 50px;
 
     .wave {
         position: absolute;
@@ -33,19 +20,13 @@ export const Container = styled.div`
 export const Welcome = styled.div`
     display: flex;
     flex-direction: column;
-    margin-left: 20rem;
-    max-width: 70rem;
-    z-index: 1;
+    max-width: 80rem;
 `;
 
 export const WelcomeIllustration = styled.div`
-    background-image: url(./under_constructions.svg);
+    background-image: url(./super_man.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1100px;
+    width: 650px;
     height: 800px;
-    position: absolute;
-    top: -10px;
-    bottom: 0px;
-    left: calc(45vw + 100px);
 `;

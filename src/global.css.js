@@ -89,6 +89,6 @@ export default createGlobalStyle`
   }
 
   p {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 `;
