@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { color } from 'constants/theme';
+import styled, { css } from 'styled-components';
+import { color, font } from 'constants/theme';
 
 export default styled.button`
     display: block;
@@ -10,7 +10,17 @@ export default styled.button`
     padding-right: 10px;
     color: #fff;
     background-color: ${color('red')};
-    font-size: 13px;
     border-color: ${color('red')};
     border-radius: 4px;
+    font: 500 13px asap,sans-serif;
+
+    ${props => props.primary && css`
+        font: 600 17px asap,sans-serif;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 6px;
+  `}
 `;
