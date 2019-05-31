@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { white } from 'constants/theme';
+import { color } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -37,7 +37,7 @@ export default createGlobalStyle`
     font-family: asap,sans-serif;
     line-height: 1;
     font-size: 1.6rem;
-    color: ${white};
+    color: ${color('white')};
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -68,7 +68,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${white};
+    color: ${color('white')};
   }
 
   pre {
@@ -79,7 +79,7 @@ export default createGlobalStyle`
     font-size: 85%;
     line-height: 1.45;
     border-radius: 5px;
-    color: ${white};
+    color: ${color('white')};
     border: 1px solid #ddd;
     font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
   }
@@ -89,6 +89,6 @@ export default createGlobalStyle`
   }
 
   p {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 `;

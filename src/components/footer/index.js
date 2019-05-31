@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Footer, FooterColumnWrapper, Container, Slogan } from './styles';
+import { Footer, FooterColumnWrapper, Container, Slogan, Baseline } from './styles';
 import Flex, { FlexItem } from 'styled-flex-component';
 import { MainTitle, SubTitle, Title } from 'components/title';
 import Button from 'components/button';
@@ -139,6 +139,26 @@ const FooterC = () => (
                     />
                 ))}
             </Flex>
+            <Baseline>
+                <Flex full justifyBetween>
+                    <FlexItem>
+                        <img src="./twitter.svg" width="32" height="32" alt="twitter" />
+                        <img src="./telegram.svg" width="32" height="32" alt="telegram" />
+                        <img src="./github.svg" width="32" height="32" alt="github" />
+                        <img src="./instagram.svg" width="32" height="32" alt="insta" />
+                    </FlexItem>
+                    <FlexItem>
+                        <Flex column alignEnd>
+                            <FlexItem>
+                                <p>Copyright © 2019 Arcata, Ltd. All rights reserved.</p>
+                            </FlexItem>
+                            <FlexItem>
+                                Terms of Service and Privacy Policy.
+                            </FlexItem>
+                        </Flex>
+                    </FlexItem>
+                </Flex>
+            </Baseline>
         </Container>
     </Footer>
 );

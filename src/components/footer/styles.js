@@ -35,3 +35,11 @@ export const FooterColumnWrapper = styled.div`
         }
     }
 `;
+
+export const Baseline = styled.div`
+    margin-top: 40px;
+
+    img {
+        color: #fff;
+    }
+`;
