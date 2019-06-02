@@ -39,7 +39,11 @@ export const FooterColumnWrapper = styled.div`
 export const Baseline = styled.div`
     margin-top: 40px;
 
-    img {
-        color: #fff;
+    .social-icon {
+        width: 24px;
+        height: 24px;
+        margin: 5px;
+        fill: #fff;
+        display: inline-block;
     }
 `;

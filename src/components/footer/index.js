@@ -1,9 +1,16 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Footer, FooterColumnWrapper, Container, Slogan, Baseline } from './styles';
+import {
+    Footer,
+    FooterColumnWrapper,
+    Container,
+    Slogan,
+    Baseline,
+} from './styles';
 import Flex, { FlexItem } from 'styled-flex-component';
 import { MainTitle, SubTitle, Title } from 'components/title';
 import Button from 'components/button';
+import ReactSVG from 'react-svg';
 
 const footer = [
     {
@@ -121,9 +128,7 @@ const FooterC = () => (
                         <MainTitle small>
                             Building Awesome Digital Products
                         </MainTitle>
-                        <SubTitle>
-                            Let’s launch together
-                            </SubTitle>
+                        <SubTitle>Let’s launch together</SubTitle>
                     </FlexItem>
                     <FlexItem>
                         <Button primary>Contact Us</Button>
@@ -142,15 +147,31 @@ const FooterC = () => (
             <Baseline>
                 <Flex full justifyBetween>
                     <FlexItem>
-                        <img src="./twitter.svg" width="32" height="32" alt="twitter" />
-                        <img src="./telegram.svg" width="32" height="32" alt="telegram" />
-                        <img src="./github.svg" width="32" height="32" alt="github" />
-                        <img src="./instagram.svg" width="32" height="32" alt="insta" />
+                        <ReactSVG src="./twitter.svg" className="social-icon" wrapper="span" />
+                        <ReactSVG
+                            src="./telegram.svg"
+                            className="social-icon"
+                            wrapper="span"
+                        />
+                        <ReactSVG src="./github.svg" className="social-icon" wrapper="span" />
+                        <ReactSVG
+                            src="./instagram.svg"
+                            className="social-icon"
+                            wrapper="span"
+                        />
+                        <ReactSVG
+                            src="./linkedin.svg"
+                            className="social-icon"
+                            wrapper="span"
+                        />
                     </FlexItem>
                     <FlexItem>
                         <Flex column alignEnd>
                             <FlexItem>
-                                <p>Copyright © 2019 Arcata, Ltd. All rights reserved.</p>
+                                <p>
+                                    Copyright © 2019 Arcata, Ltd. All rights
+                                    reserved.
+                                </p>
                             </FlexItem>
                             <FlexItem>
                                 Terms of Service and Privacy Policy.
