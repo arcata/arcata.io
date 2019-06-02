@@ -1,9 +1,13 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { font, color } from 'constants/theme';
 
 export const MainTitle = styled.h1`
     font: ${font('pageHeading')};
     color: ${props => (props.color ? color(props.color) : color('white'))};
+
+    ${props => props.small && css`
+        font: ${font('smallPageHeading')};
+  `}
 `;
 
 export const SubTitle = styled.h2`

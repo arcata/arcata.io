@@ -20,7 +20,7 @@ export const Container = styled.div`
 export const Welcome = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 80rem;
+    max-width: 680px;
 `;
 
 export const WelcomeIllustration = styled.div`

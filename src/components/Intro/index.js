@@ -16,15 +16,11 @@ const Intro = () => (
                 </p>
                 <p>
                     <SubTitle>
-                        We are a boutique digital transformation consultancy and
-                        software development company that provides cutting edge
-                        engineering solutions. Since 2007 we have been a
-                        visionary and a reliable software engineering partner
-                        for world-class brands.
+                        Arcata is a digital product agency offering custom software, mobile, and web application development consulting. We provide exceptional professional services in strategy, user experience, design, and full stack engineering to bring brilliant digital ideas into being for avant-garde clients such as Netflix, Apple, Nasdaq, and Zipcar.
                     </SubTitle>
                 </p>
                 <div>
-                    <Button>GET IN TOUCH</Button>
+                    <Button primary>Learn More</Button>
                 </div>
             </Welcome>
 
