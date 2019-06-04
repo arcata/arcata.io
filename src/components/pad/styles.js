@@ -5,6 +5,7 @@ export const Pad = styled.div`
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: ${props =>
+        props.justify ? props.justify : 'space-around'};
     align-items: center;
 `;

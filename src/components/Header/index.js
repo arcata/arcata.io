@@ -8,7 +8,7 @@ import { Container } from './styles';
 
 const Header = () => (
     <Container>
-        <Pad>
+        <Pad justify="space-between">
             <Link to="/">
                 <Logo />
             </Link>

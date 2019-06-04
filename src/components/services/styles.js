@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { color } from 'constants/theme';
 
 export const Container = styled.div`
-    background-color: ${color('skin')};
+    background-color: ${color('white')};
 `;
 
 export const Service = styled.div`
@@ -12,16 +12,23 @@ export const Service = styled.div`
 `;
 
 export const Services = styled.div`
-    margin-left: 50px;
     padding: 10px;
-    width: 800px;
 `;
 
 export const GeneralServicesInfo = styled.div`
-    max-width: 400px;
+    max-width: 550px;
 `;
 
 export const ServiceDescription = styled.div`
     margin-top: 10px;
     color: ${color('grey')};
+`;
+
+export const Illustration = styled.div`
+    background-image: url(./hero_of_employe.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
 `;
