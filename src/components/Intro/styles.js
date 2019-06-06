@@ -17,10 +17,20 @@ export const Container = styled.div`
     }
 `;
 
-export const Welcome = styled.div`
+export const WelcomeContainer = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 680px;
+`;
+
+export const WelcomeTitle = styled.div`
+    max-width: 600px;
+    margin-bottom: 20px;
+`;
+
+export const WelcomeWording = styled.div`
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 500px;
 `;
 
 export const WelcomeIllustration = styled.div`

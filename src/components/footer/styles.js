@@ -25,11 +25,9 @@ export const FooterColumnWrapper = styled.div`
         margin-top: 30px;
 
         li {
-            margin-top: 10px;
-
             a {
                 color: ${color('white')};
-                font: ${font('text')};
+                font: ${font('smallText')};
                 text-decoration: none;
             }
         }

@@ -19,7 +19,7 @@ const FooterColumn = ({ title, links }) => (
         <Title>{title}</Title>
         <ul>
             {links.map(link => (
-                <li key="link.alt">
+                <li key={link.alt}>
                     <Link to={link.href}>{link.alt}</Link>
                 </li>
             ))}
