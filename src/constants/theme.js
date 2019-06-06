@@ -10,10 +10,10 @@ export const theme = {
         red: '#F5534F',
     },
     fonts: {
-        pageHeading: '900 46px courier;',
-        smallPageHeading: '900 30px courier;',
-        subtitle: '500 22px asap,sans-serif;',
-        title: '600 22px asap,sans-serif;',
+        pageHeading: '800 54px bitter, sans-serif;',
+        smallPageHeading: '800 30px bitter, serif;',
+        subtitle: '500 22px bitter,sans-serif;',
+        title: '600 22px bitter,sans-serif;',
         text: '500 16px asap,sans-serif;',
     },
     form: {

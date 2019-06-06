@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainTitle, SubTitle } from 'components/title';
+import { MainTitle } from 'components/title';
 import Button from 'components/button';
 import Pad from 'components/pad';
 
@@ -15,9 +15,12 @@ const Intro = () => (
                     </MainTitle>
                 </p>
                 <p>
-                    <SubTitle>
-                        Arcata is a digital product agency offering custom software, mobile, and web application development consulting. We provide exceptional professional services in strategy, user experience, design, and full stack engineering to bring brilliant digital ideas into being for avant-garde clients such as Netflix, Apple, Nasdaq, and Zipcar.
-                    </SubTitle>
+                    Arcata is a digital product agency offering custom software,
+                    mobile, and web application development consulting. We
+                    provide exceptional professional services in strategy, user
+                    experience, design, and full stack engineering to bring
+                    brilliant digital ideas into being for avant-garde clients
+                    such as Netflix, Apple, Nasdaq, and Zipcar.
                 </p>
                 <div>
                     <Button primary>Learn More</Button>
