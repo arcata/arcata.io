@@ -147,13 +147,21 @@ const FooterC = () => (
             <Baseline>
                 <Flex full justifyBetween>
                     <FlexItem>
-                        <ReactSVG src="./twitter.svg" className="social-icon" wrapper="span" />
+                        <ReactSVG
+                            src="./twitter.svg"
+                            className="social-icon"
+                            wrapper="span"
+                        />
                         <ReactSVG
                             src="./telegram.svg"
                             className="social-icon"
                             wrapper="span"
                         />
-                        <ReactSVG src="./github.svg" className="social-icon" wrapper="span" />
+                        <ReactSVG
+                            src="./github.svg"
+                            className="social-icon"
+                            wrapper="span"
+                        />
                         <ReactSVG
                             src="./instagram.svg"
                             className="social-icon"

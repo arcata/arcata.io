@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { color, font } from 'constants/theme';
+import { color } from 'constants/theme';
 
 export default styled.button`
     display: block;
@@ -12,15 +12,17 @@ export default styled.button`
     background-color: ${color('red')};
     border-color: ${color('red')};
     border-radius: 4px;
-    font: 500 13px asap,sans-serif;
+    font: 500 13px asap, sans-serif;
 
-    ${props => props.primary && css`
-        font: 600 17px asap,sans-serif;
-        font-weight: bold;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border-radius: 6px;
-  `}
+    ${props =>
+        props.primary &&
+        css`
+            font: 600 17px asap, sans-serif;
+            font-weight: bold;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 6px;
+        `}
 `;

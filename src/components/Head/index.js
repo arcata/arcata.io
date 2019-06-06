@@ -162,7 +162,7 @@ const Head = ({
             type="image/png"
         />
         <link rel="stylesheet" href="https://use.typekit.net/aie5prv.css" />
-    
+
         <script type="application/ld+json">
             {JSON.stringify(
                 schemaGenerator({
