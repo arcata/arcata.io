@@ -7,12 +7,12 @@ import Stack from 'components/stack';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
-        <Layout>
-            <Intro />
-            <Services />
-            <Stack data={data.stack} />
-        </Layout>
-    );
+    <Layout>
+        <Intro />
+        <Services />
+        <Stack data={data.stack} />
+    </Layout>
+);
 
 Index.propTypes = {
     data: PropTypes.object.isRequired,
