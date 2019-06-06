@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Pad from 'components/pad';
 import { MainTitle } from 'components/title';
 import { Container, StackImage } from './styles';
@@ -23,5 +24,9 @@ const Stack = ({ data }) => (
         </Pad>
     </Container>
 );
+
+Stack.propTypes = {
+    data: PropTypes.object,
+};
 
 export default Stack;
