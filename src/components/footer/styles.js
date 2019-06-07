@@ -30,6 +30,8 @@ export const FooterColumnWrapper = styled.div`
                 font: ${font('smallText')};
                 text-decoration: none;
             }
+
+            margin-top: 15px;
         }
     }
 `;

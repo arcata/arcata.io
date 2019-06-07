@@ -10,12 +10,13 @@ export const theme = {
         red: '#F5534F',
     },
     fonts: {
-        pageHeading: '800 54px bitter, serif;',
-        smallPageHeading: '800 30px bitter,serif;',
+        pageHeading: '800 54px bitter, sans-serif;',
+        smallPageHeading: '800 30px bitter,sans-serif;',
         subtitle: '500 22px bitter,sans-serif;',
         title: '600 22px bitter,sans-serif;',
-        text: '400 20px bitter,serif;',
-        smallText: '400 16px bitter,serif;',
+        text: '400 20px sans-serif;',
+        smallText: '400 16px sans-serif;',
+        microText: '400 14px bitter,sans-serif;',
     },
     form: {
         helperTextHeight: '16px',

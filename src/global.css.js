@@ -34,7 +34,7 @@ export default createGlobalStyle`
   }
  
   body {
-    font-family: asap,sans-serif;
+    font-family: sans-serif;
     line-height: 1;
     font-size: 1.6rem;
     color: ${color('white')};

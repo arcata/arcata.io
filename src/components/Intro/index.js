@@ -22,7 +22,7 @@ const Intro = () => (
                     </MainTitle>
                 </WelcomeTitle>
                 <WelcomeWording>
-                    <Text>
+                    <Text regular>
                         Arcata is a digital product agency offering custom
                         software, mobile, and web application development
                         consulting. We provide exceptional professional services

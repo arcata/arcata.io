@@ -13,7 +13,7 @@ export const Container = styled.div`
         left: 0px;
         width: 100%;
         bottom: 0px;
-        margin: -2px -1px;
+        margin: -4px -1px;
     }
 `;
 
