@@ -4,6 +4,7 @@ import Layout from 'components/layout';
 import Intro from 'components/intro';
 import Services from 'components/services';
 import Stack from 'components/stack';
+import Contact from 'components/contact';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
@@ -11,6 +12,7 @@ const Index = ({ data }) => (
         <Intro />
         <Services />
         <Stack data={data.stack} />
+        <Contact />
     </Layout>
 );
 

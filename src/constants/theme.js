@@ -8,6 +8,7 @@ export const theme = {
         skin: '#F8E9E9',
         white: '#fff',
         red: '#F5534F',
+        black: '#000000',
     },
     fonts: {
         pageHeading: '800 54px bitter, sans-serif;',
