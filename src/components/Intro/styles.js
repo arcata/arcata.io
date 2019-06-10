@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { color } from 'constants/theme';
+import media from 'styled-media-query';
 
 export const Container = styled.div`
     min-height: 1000px;
@@ -39,4 +40,8 @@ export const WelcomeIllustration = styled.div`
     background-repeat: no-repeat;
     width: 650px;
     height: 800px;
+
+    ${media.lessThan('medium')`
+        display: none;
+    `}
 `;

@@ -6,6 +6,8 @@ export const Footer = styled.footer`
     flex-direction: column;
     padding-top: 80px;
     padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: ${color('darkBlue')};
 `;
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const Container = styled.nav`
     ul {
@@ -13,4 +14,8 @@ export const Container = styled.nav`
             }
         }
     }
+
+    ${media.lessThan('medium')`
+        display: none; // TODO: display hamburger instead of hiding it completely
+    `}
 `;

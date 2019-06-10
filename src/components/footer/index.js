@@ -36,7 +36,7 @@ const FooterC = () => (
     <Footer>
         <Container>
             <Slogan>
-                <Flex full justifyBetween>
+                <Flex full justifyBetween wrap>
                     <FlexItem>
                         <MainTitle small>
                             Building Awesome Digital Products
@@ -48,7 +48,7 @@ const FooterC = () => (
                     </FlexItem>
                 </Flex>
             </Slogan>
-            <Flex full justifyBetween>
+            <Flex full justifyBetween wrap>
                 {footer.map(item => (
                     <FooterColumn
                         key={item.title}
@@ -58,7 +58,7 @@ const FooterC = () => (
                 ))}
             </Flex>
             <Baseline>
-                <Flex full justifyBetween>
+                <Flex full justifyBetween wrap>
                     <FlexItem>
                         <ReactSVG
                             src="./twitter.svg"
@@ -86,19 +86,17 @@ const FooterC = () => (
                             wrapper="span"
                         />
                     </FlexItem>
-                    <FlexItem>
-                        <Flex column alignEnd>
-                            <FlexItem>
-                                <p>
-                                    Copyright © 2019 Arcata, Ltd. All rights
-                                    reserved.
-                                </p>
-                            </FlexItem>
-                            <FlexItem>
-                                Terms of Service and Privacy Policy.
-                            </FlexItem>
-                        </Flex>
-                    </FlexItem>
+                    <Flex column alignEnd wrap>
+                        <FlexItem>
+                            <p>
+                                Copyright © 2019 Arcata, Ltd. All rights
+                                reserved.
+                            </p>
+                        </FlexItem>
+                        <FlexItem>
+                            Terms of Service and Privacy Policy.
+                        </FlexItem>
+                    </Flex>
                 </Flex>
             </Baseline>
         </Container>
