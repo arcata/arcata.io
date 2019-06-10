@@ -3,11 +3,11 @@ import { color } from 'constants/theme';
 import media from 'styled-media-query';
 
 export const Container = styled.div`
-    min-height: 1000px;
     position: relative;
     background-color: ${color('primary')};
     overflow: hidden;
     padding-top: 50px;
+    padding-bottom: 100px;
 
     .wave {
         position: absolute;
@@ -16,6 +16,11 @@ export const Container = styled.div`
         bottom: 0px;
         margin: -4px -1px;
     }
+
+    ${media.lessThan('large')`
+        padding-left: 20px;
+        padding-right: 20px;
+    `}
 `;
 
 export const WelcomeContainer = styled.div`

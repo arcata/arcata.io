@@ -25,7 +25,7 @@ const ServicesC = () => (
             </FlexItem>
             <FlexItem>
                 <Services>
-                    <Flex>
+                    <Flex wrap center>
                         <Service>
                             <img
                                 src="./customer-insight.png"
@@ -71,7 +71,7 @@ const ServicesC = () => (
                             </ServiceDescription>
                         </Service>
                     </Flex>
-                    <Flex>
+                    <Flex wrap center>
                         <Service>
                             <img
                                 src="./conference.png"

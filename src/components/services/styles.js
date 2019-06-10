@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { color } from 'constants/theme';
+import media from 'styled-media-query';
 
 export const Container = styled.div`
     background-color: ${color('white')};
@@ -17,6 +18,10 @@ export const Services = styled.div`
 
 export const GeneralServicesInfo = styled.div`
     max-width: 550px;
+
+    ${media.lessThan('medium')`
+        display: none;
+    `}
 `;
 
 export const ServiceDescription = styled.div`
