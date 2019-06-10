@@ -7,9 +7,7 @@ export const Container = styled.header`
 
     a {
         font-size: 1.5rem;
-        transition: color 0.2s ease;
         text-decoration: none;
         font-weight: 500;
-        color: #ffffff;
     }
 `;

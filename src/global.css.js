@@ -69,6 +69,11 @@ export default createGlobalStyle`
 
   a {
     color: ${color('white')};
+    padding-bottom: 5px;
+    
+    :hover {
+      border-bottom: 1px solid #FFF;
+    }
   }
 
   pre {

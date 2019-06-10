@@ -9,8 +9,14 @@ export default styled.input`
     margin-top: 15px;
     padding: 5px;
     font: ${font('microText')};
+    font-weight: 600;
+    color: ${color('darkBlue')};
     width: 100%;
     max-width: 380px;
+
+    transition-property: border;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 
     :hover {
         border: 2px solid ${color('black')};

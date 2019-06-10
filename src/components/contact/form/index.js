@@ -13,6 +13,8 @@ class ContactForm extends React.Component {
         this.state = {
             name: '',
             email: '',
+            company: '',
+            phone: '',
             letter: '',
         };
     }
@@ -21,7 +23,19 @@ class ContactForm extends React.Component {
         this.setState({ [field]: e.target.value });
     };
 
-    handleSubmit = data => {};
+    handleSubmit = e => {
+        e.preventDefault();
+
+        let dto = {
+            name: this.state.name,
+            email: this.state.email,
+            company: this.state.company,
+            phone: this.state.phone,
+            letter: this.state.letter,
+        };
+
+        console.log(dto);
+    };
 
     render() {
         return (
@@ -41,6 +55,20 @@ class ContactForm extends React.Component {
                             placeholder="Your email"
                         />
                     </Flex>
+                    <Flex justifyBetween>
+                        <Input
+                            type="text"
+                            value={this.state.company}
+                            onChange={this.handleChange('company')}
+                            placeholder="Company (Optional)"
+                        />
+                        <Input
+                            type="text"
+                            value={this.state.phone}
+                            onChange={this.handleChange('phone')}
+                            placeholder="Phone Number (Optional)"
+                        />
+                    </Flex>
                     <FlexItem>
                         <Textarea
                             value={this.state.letter}
@@ -48,9 +76,11 @@ class ContactForm extends React.Component {
                             placeholder="How we can help?"
                         />
                     </FlexItem>
-                    <FlexItem>
-                        <Button type="submit">Submit</Button>
-                    </FlexItem>
+                    <Flex justifyEnd>
+                        <Button type="submit" primary>
+                            Submit
+                        </Button>
+                    </Flex>
                 </Flex>
             </Form>
         );
