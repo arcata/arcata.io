@@ -36,21 +36,28 @@ const ServicesC = () => (
                             <Title color="darkBlue">Engineering</Title>
                             <ServiceDescription>
                                 <Text small grey>
-                                    Arcata integrates engineering strategy at
-                                    the outset of your project in order to
-                                    assess scope, technical requirements,
-                                    approach, and feasibility.
+                                    Web applications need to work flawlessly
+                                    every time, for every user, in myriad
+                                    situations. Arcata integrates engineering
+                                    strategy at the outset of your project in
+                                    order to assess scope, technical
+                                    requirements, approach, and feasibility.
+                                    Doing this not only builds trust, it
+                                    positions your custom software to prove
+                                    value year after year.
                                 </Text>
                             </ServiceDescription>
                         </Service>
                         <Service>
                             <img
-                                src="./conference.png"
+                                src="./idea.png"
                                 width="64"
                                 height="64"
                                 alt="Testing and Quality Assurance"
                             />
-                            <Title color="darkBlue">Team augmentation</Title>
+                            <Title color="darkBlue">
+                                Testing and Quality Assurance
+                            </Title>
                             <ServiceDescription>
                                 <Text small grey>
                                     Our bleeding-edge web applications work
@@ -67,17 +74,21 @@ const ServicesC = () => (
                     <Flex>
                         <Service>
                             <img
-                                src="./idea.png"
+                                src="./conference.png"
                                 width="64"
                                 height="64"
-                                alt="Business Analysis"
+                                alt="Team Augmentation"
                             />
-                            <Title color="darkBlue">Business Analysis</Title>
+                            <Title color="darkBlue">Team Augmentation</Title>
                             <ServiceDescription>
                                 <Text small grey>
-                                    Create Payment Address Provide your payout
-                                    wallet address and callback URL to PayBear
-                                    API.
+                                    Whether you’re an established brand or early
+                                    stage startup, digital project development
+                                    frequently calls for all-hands on deck. And
+                                    if you don’t have those hands in-house,
+                                    DockYard’s team of professional consultants
+                                    is ready to supplement your staff, short or
+                                    long term.
                                 </Text>
                             </ServiceDescription>
                         </Service>
