@@ -62,6 +62,11 @@ class ContactForm extends React.Component {
                             placeholder="Phone Number (Optional)"
                             name="phone"
                         />
+                        <Input
+                            type="hidden"
+                            name="_cc"
+                            value="j4l5v7s8k7y8w1j5@arcata-workspace.slack.com"
+                        />
                     </Flex>
                     <FlexItem>
                         <Textarea
@@ -69,6 +74,7 @@ class ContactForm extends React.Component {
                             onChange={this.handleChange('letter')}
                             placeholder="How we can help?"
                             name="letter"
+                            n
                         />
                     </FlexItem>
                     <Flex justifyEnd>
