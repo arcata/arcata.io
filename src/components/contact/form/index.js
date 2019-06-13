@@ -25,21 +25,11 @@ class ContactForm extends React.Component {
 
     handleSubmit = e => {
         e.preventDefault();
-
-        let dto = {
-            name: this.state.name,
-            email: this.state.email,
-            company: this.state.company,
-            phone: this.state.phone,
-            letter: this.state.letter,
-        };
-
-        console.log(dto);
     };
 
     render() {
         return (
-            <Form onSubmit={this.handleSubmit}>
+            <Form action="https://formsubmit.co/hello@arcata.io" method="POST">
                 <Flex column>
                     <Flex justifyBetween>
                         <Input
@@ -47,12 +37,14 @@ class ContactForm extends React.Component {
                             value={this.state.name}
                             onChange={this.handleChange('name')}
                             placeholder="Your name"
+                            name="name"
                         />
                         <Input
                             type="email"
                             value={this.state.email}
                             onChange={this.handleChange('email')}
                             placeholder="Your email"
+                            name="email"
                         />
                     </Flex>
                     <Flex justifyBetween>
@@ -61,12 +53,14 @@ class ContactForm extends React.Component {
                             value={this.state.company}
                             onChange={this.handleChange('company')}
                             placeholder="Company (Optional)"
+                            name="company"
                         />
                         <Input
                             type="text"
                             value={this.state.phone}
                             onChange={this.handleChange('phone')}
                             placeholder="Phone Number (Optional)"
+                            name="phone"
                         />
                     </Flex>
                     <FlexItem>
@@ -74,6 +68,7 @@ class ContactForm extends React.Component {
                             value={this.state.letter}
                             onChange={this.handleChange('letter')}
                             placeholder="How we can help?"
+                            name="letter"
                         />
                     </FlexItem>
                     <Flex justifyEnd>
