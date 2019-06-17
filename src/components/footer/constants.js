@@ -33,27 +33,27 @@ export const footer = [
         links: [
             {
                 alt: 'Product Strategy',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Product Design',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Engineering',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Testing and QA',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Project Management',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Training and Support',
-                href: '',
+                href: '/',
             },
         ],
     },
@@ -62,15 +62,15 @@ export const footer = [
         links: [
             {
                 alt: 'Progressive Web Apps',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Fin Tech',
-                href: '',
+                href: '/',
             },
             {
                 alt: 'Microservices',
-                href: '',
+                href: '/',
             },
         ],
     },
@@ -87,19 +87,19 @@ export const footer = [
             },
             {
                 alt: 'Instagram',
-                href: 'https://instagram.com/arcata',
+                href: 'https://instagram.com/arcataio',
             },
             {
                 alt: 'LinkedIn',
-                href: '',
+                href: 'https://linkedin.com/company/arcataio',
             },
             {
                 alt: 'GitHub',
-                href: '',
+                href: 'https://github.com/arcata',
             },
             {
                 alt: 'Twitter',
-                href: '',
+                href: 'https://twitter.com/arcataio',
             },
         ],
     },

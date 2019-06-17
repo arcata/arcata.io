@@ -20,7 +20,7 @@ const FooterColumn = ({ title, links }) => (
         <ul>
             {links.map(link => (
                 <li key={link.alt}>
-                    <Link to={link.href}>{link.alt}</Link>
+                    <a href={link.href}>{link.alt}</a>
                 </li>
             ))}
         </ul>
@@ -60,31 +60,34 @@ const FooterC = () => (
             <Baseline>
                 <Flex full justifyBetween wrap>
                     <FlexItem>
-                        <ReactSVG
-                            src="./twitter.svg"
-                            className="social-icon"
-                            wrapper="span"
-                        />
-                        <ReactSVG
-                            src="./telegram.svg"
-                            className="social-icon"
-                            wrapper="span"
-                        />
-                        <ReactSVG
-                            src="./github.svg"
-                            className="social-icon"
-                            wrapper="span"
-                        />
-                        <ReactSVG
-                            src="./instagram.svg"
-                            className="social-icon"
-                            wrapper="span"
-                        />
-                        <ReactSVG
-                            src="./linkedin.svg"
-                            className="social-icon"
-                            wrapper="span"
-                        />
+                        <a href="https://twitter.com/arcataio">
+                            <ReactSVG
+                                src="./twitter.svg"
+                                className="social-icon"
+                                wrapper="span"
+                            />
+                        </a>
+                        <a href="https://github.com/arcata">
+                            <ReactSVG
+                                src="./github.svg"
+                                className="social-icon"
+                                wrapper="span"
+                            />
+                        </a>
+                        <a href="https://instagram.com/arcataio">
+                            <ReactSVG
+                                src="./instagram.svg"
+                                className="social-icon"
+                                wrapper="span"
+                            />
+                        </a>
+                        <a href="https://linkedin.com/company/arcataio">
+                            <ReactSVG
+                                src="./linkedin.svg"
+                                className="social-icon"
+                                wrapper="span"
+                            />
+                        </a>
                     </FlexItem>
                     <Flex column alignEnd wrap>
                         <FlexItem>
