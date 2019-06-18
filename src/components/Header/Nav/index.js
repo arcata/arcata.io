@@ -6,7 +6,7 @@ import Button from 'components/button';
 const Nav = () => (
     <S.Container>
         <ul>
-            <li>
+            {/* <li>
                 <Link to="/about">Who we are</Link>
             </li>
             <li>
@@ -26,6 +26,9 @@ const Nav = () => (
             </li>
             <li>
                 <Button>Contact Us</Button>
+            </li> */}
+            <li>
+                <a href="mailto:hello@arcata.io">hello@arcata.io</a>
             </li>
         </ul>
     </S.Container>
