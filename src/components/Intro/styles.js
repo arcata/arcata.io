@@ -15,6 +15,7 @@ export const Container = styled.div`
         width: 100%;
         bottom: 0px;
         margin: -4px -1px;
+        z-index: 1;
     }
 
     ${media.lessThan('large')`
@@ -26,6 +27,7 @@ export const Container = styled.div`
 export const WelcomeContainer = styled.div`
     display: flex;
     flex-direction: column;
+    z-index: 2;
 `;
 
 export const WelcomeTitle = styled.div`

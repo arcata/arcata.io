@@ -24,7 +24,7 @@ const ServicesC = () => (
                 </GeneralServicesInfo>
             </FlexItem>
             <FlexItem>
-                <Services>
+                <Services id="services">
                     <Flex wrap center>
                         <Service>
                             <img

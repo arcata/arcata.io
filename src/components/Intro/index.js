@@ -24,16 +24,18 @@ const Intro = () => (
                 <WelcomeWording>
                     <Text regular>
                         Arcata is a digital product agency offering custom
-                        software, mobile, and web application development
-                        consulting. We provide exceptional professional services
+                        software engineering, mobile, and web application
+                        development, infrastructure provisioning and quality
+                        assurance. We provide exceptional professional services
                         in strategy, user experience, design, and full stack
-                        engineering to bring brilliant digital ideas into being
-                        for avant-garde clients such as Netflix, Apple, Nasdaq,
-                        and Zipcar.
+                        engineering to guide you through the journey from the
+                        simple MVP to a fully-fledged business.
                     </Text>
                 </WelcomeWording>
                 <div>
-                    <Button primary>Learn More</Button>
+                    <a href="#services">
+                        <Button primary>Learn More</Button>
+                    </a>
                 </div>
             </WelcomeContainer>
 
