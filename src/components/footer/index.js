@@ -44,7 +44,9 @@ const FooterC = () => (
                         <SubTitle>Let’s launch together</SubTitle>
                     </FlexItem>
                     <FlexItem>
-                        <Button primary>Contact Us</Button>
+                        <a href="mailto:hello@arcata.io">
+                            <Button primary>Contact Us</Button>
+                        </a>
                     </FlexItem>
                 </Flex>
             </Slogan>
