@@ -65,7 +65,7 @@
     "chrome-launcher": "^0.10.5",
     "core-js": "^2.6.2",
     "directory-named-webpack-plugin": "^4.0.0",
-    "eslint": "^6.0.0",
+    "eslint": "^6.0.1",
     "eslint-config-prettier": "^5.0.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-import": "^2.14.0",
