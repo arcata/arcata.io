@@ -47,7 +47,7 @@
     "gatsby-transformer-sharp": "^2.1.18",
     "intersection-observer": "^0.7.0",
     "prop-types": "^15.6.2",
-    "react": "^16.8.6",
+    "react": "^16.10.1",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-particles-js": "^2.6.0",
