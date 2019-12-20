@@ -1,0 +1,9 @@
+FROM node:12.13-alpine
+ARG APP_DIR=/usr/src/app
+WORKDIR $APP_DIR
+COPY package*.json $APP_DIR/
+RUN apk update --quiet && \
+    apk add git --no-cache --quiet
+RUN npm install
+ENV NODE_ENV=development
+COPY . .

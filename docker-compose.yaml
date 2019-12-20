@@ -1,0 +1,16 @@
+version: '2.3'
+
+services:
+  customer-portal:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      NODE_ENV: development
+      PORT: 8000
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/usr/src/app/src
+    command: [ "npm", "run", "develop" ]

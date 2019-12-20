@@ -11,7 +11,7 @@ import {
 import Flex, { FlexItem } from 'styled-flex-component';
 import { MainTitle, SubTitle, Title } from 'components/title';
 import Button from 'components/button';
-import ReactSVG from 'react-svg';
+import { ReactSVG } from 'react-svg';
 import { footer } from 'components/footer/constants';
 
 const FooterColumn = ({ title, links }) => (
