@@ -27,7 +27,7 @@
     }
   },
   "dependencies": {
-    "@reach/dialog": "^0.6.0",
+    "@reach/dialog": "^0.8.2",
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.6.0",
     "babel-plugin-styled-components": "^1.10.0",
