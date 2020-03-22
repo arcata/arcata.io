@@ -78,7 +78,7 @@
     "lighthouse": "^5.0.0",
     "mkdirp": "^0.5.1",
     "node-gyp": "^6.0.0",
-    "prettier": "^1.16.0",
+    "prettier": "^2.0.1",
     "pretty-quick": "^2.0.0"
   }
 }
